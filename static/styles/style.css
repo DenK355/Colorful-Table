@@ -1,0 +1,46 @@
+table {
+    border: 5px solid red;
+    text-align: center;
+}
+
+th, td {
+    border: 2.5px solid blue;
+}
+
+th {
+    background-color: bisque;
+}
+
+th:first-child {
+    width: 40px;
+}
+
+th + th {
+    width: 125px;
+}
+
+tbody tr td:first-child {
+    background-color: cyan;
+}
+
+tfoot tr td{
+    background-color: #e9967a;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #bdb76b;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+caption {
+    font-size: 24px;
+    color: red;
+}
+
+caption::after {
+    content: "#05";
+    color: purple;
+}
